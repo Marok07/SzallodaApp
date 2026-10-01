@@ -17,7 +17,7 @@ namespace SzallodaApp
         }
         public override string ToString()
         {
-            return $"{base.ToString} (Extra szolgáltatás: {ExtraSzolgaltatasAr} Ft)";
+            return $"{base.ToString()} (Extra szolgáltatás: {ExtraSzolgaltatasAr} Ft)";
         }
     }
 }
